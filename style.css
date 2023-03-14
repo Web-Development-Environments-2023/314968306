@@ -3,5 +3,10 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: blue;
 }
+body {
+	background-image: url('eric-clapton.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
