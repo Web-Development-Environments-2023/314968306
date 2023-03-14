@@ -22,4 +22,15 @@
 	font-size: 20px;
 	font-weight: bold;
   }
+
+  #photos {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
   
