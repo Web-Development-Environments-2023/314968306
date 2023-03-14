@@ -1,3 +1,8 @@
+body {
+	background-image: url('eric-clapton.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
 #menu
 {
 	position: fixed;
@@ -5,8 +10,3 @@
 	height: 35px;
 	background: blue;
 }
-body {
-	background-image: url('eric-clapton.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-  }
