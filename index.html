@@ -143,13 +143,29 @@ It would then search for relevant data across multiple sources, including restau
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="5" required></textarea>
     <br>
+    <label for="emoji">Emoji:</label>
+    <select id="emoji" onchange="insertEmoji()">
+      <option value="">Select an emoji...</option>
+      <option value="😀">😀</option>
+      <option value="😍">😍</option>
+      <option value="👍">👍</option>
+      <option value="👎">👎</option>
+    </select>
+    <br>
     <input type="submit" value="Submit">
   </form>
 </div>
-
 <br/>
 <br/>
 </section>
+
+<script>
+  function insertEmoji() {
+    var emoji = document.getElementById("emoji").value;
+    var message = document.getElementById("message");
+    message.value += emoji;
+  }
+</script>
 
 
 <script type="text/javascript">
