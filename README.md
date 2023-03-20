@@ -1,4 +1,5 @@
 This is a website that describes the life of the master of music- Eric Clapton.
+
 The website contains the main points in his life, his past photos and even his playlists (some of them from live performances).
 
 
